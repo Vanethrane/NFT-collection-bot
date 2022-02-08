@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Technivorous NFT collection Maker.exe" version="0.9.1.0" publicKeyToken="68c027d39f365c93" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="15368">
+      <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xk2MDkH0MCzDoJKpajFnsWEf+IPxZO/06Ao+0l5TDoU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Technivorous NFT collection Maker.deps.json" size="491">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2khDmtBOUA/3HarEDxx/1/tOhVjzEMz3cdfI7qwvkcA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Technivorous NFT collection Maker.dll" size="23560">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZWT7Avdi9CcUj4GXvfGtMPqeFz0hPBB8MnA7ZqFDxRs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Technivorous NFT collection Maker.exe" size="176136">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>phQMNa/Od4NP3qhLRURd3CD1ueUfVDMP5oWvE4bP/mE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Technivorous NFT collection Maker.runtimeconfig.json" size="161">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JEdMwGltKlJ/VjUDCkPZtJsOaZOrS/AfPDPsNBMwP+0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-4JF1BI7\Technivorous" issuerKeyHash="e429162e5d81d587d8d927026a730da94a67ff63" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>G58TGn5B76kKVMOaLOCvQ+UmD46LxOrWvpn90Jm6Zzg=</DigestValue></Reference></SignedInfo><SignatureValue>EkVOE1xnaKnwDK0N9ySu4yt2UuqpjWiXjdbWAGx2WciRaytqzBolrCD7VPOk/zxw22xny+GpBJwYqq44cmq8qcRjXZ4mIRjvaqEVJ0sa3oX2vfky2jAiXjast8ifRg32xyODO4k/XHyjYZsc2f2iHrBMmhsx0U6ydQGCdtTPGUQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qEnUmoGkltysnp4bSLSczmbRGwTJKNp3pdDTlPWb9Xz0yJdRoDaRQQBx23X4eShW9HtPfKt/Ue0EH8hIhhmHcvz0AEAImkJrXaJqomjCXPjkuwWgqaaKxoIFj4N/MU+lNS8bBGsm0TixOyR8FDx7ZTFCpvkvkVkc7gdWYi3P4FE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3867ba99d0fd99bed6eac48b8e0f26e543afe02c9ac3540aa9ef417e1a139f1b" Description="" Url=""><as:assemblyIdentity name="Technivorous NFT collection Maker.exe" version="0.9.1.0" publicKeyToken="68c027d39f365c93" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-4JF1BI7\Technivorous</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dD3sCC+BV/VnMHlZ2VqbQXaTImWcPFxX9ZPUwMqcif8=</DigestValue></Reference></SignedInfo><SignatureValue>AA7pxaNDlN1eJ4/Xoi7e2LFEb2TkCGxItXiGCJfIE15bV+uhXNR8IUOf5be+BTWJdORcRS2FlHk3B5dpGkfS4RN/Zt94d3otYkFpZQD6/Eeo9FBSSCh/XGY88HojNQUxvBdivK495H+aRJgaKFfwQtl+F3mVvugcpuCqJD/Hln4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qEnUmoGkltysnp4bSLSczmbRGwTJKNp3pdDTlPWb9Xz0yJdRoDaRQQBx23X4eShW9HtPfKt/Ue0EH8hIhhmHcvz0AEAImkJrXaJqomjCXPjkuwWgqaaKxoIFj4N/MU+lNS8bBGsm0TixOyR8FDx7ZTFCpvkvkVkc7gdWYi3P4FE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICCTCCAXKgAwIBAgIQMhjY69C546RAKYsWPTIVszANBgkqhkiG9w0BAQsFADBDMUEwPwYDVQQDHjgARABFAFMASwBUAE8AUAAtADQASgBGADEAQgBJADcAXABUAGUAYwBoAG4AaQB2AG8AcgBvAHUAczAeFw0yMjAyMDgxNjAyMjVaFw0yMzAyMDgyMjAyMjVaMEMxQTA/BgNVBAMeOABEAEUAUwBLAFQATwBQAC0ANABKAEYAMQBCAEkANwBcAFQAZQBjAGgAbgBpAHYAbwByAG8AdQBzMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoSdSagaSW3KyenhtItJzOZtEbBMko2nel0NOU9Zv1fPTIl1GgNpFBAHHbdfh5KFb0e098q39R7QQfyEiGGYdy/PQAQAiaQmtdomqiaMJc+OS7BaCpporGggWPg38xT6U1LxsEaybROLE7JHwUPHtlMUKm+S+RWRzuB1ZiLc/gUQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIVSKSkk0fS4HQUD5Jn9pmuEJB2ze+ja6TgiSiNazBwbDUrjQfvGxiEmoIQkPInZOVK5Hx5lXkeo1dC0CNWUfmcf89OU27alkX1DyTMwH7ad1d64BKmnqzN2ySDAteKibmsXCni8/ZtQjvNkD+EvDyOm21k7Rl16OjiBIJZzL1v+</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
